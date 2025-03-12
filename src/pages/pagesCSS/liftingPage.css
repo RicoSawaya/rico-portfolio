@@ -1,0 +1,99 @@
+.lifting_page{
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
+
+    background-color: black;
+    font-family: "Lucida Console", "Consolas", monospace;
+    font-size: 20px;
+    color: greenyellow
+}
+
+.lifting_title{
+    place-self: end;
+    font-size: 60px;
+    margin: 11.5% 0px 11.5% 0px;
+    padding-right: 8%;
+}
+
+.why_dict{
+    margin: 50px 0px 50px 3%;
+}
+
+.why_code{
+    margin: 25px 0px 25px 3%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+
+.code_grid{
+    margin: 0px 0px 0px 3%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.source_code_grid{
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    font-size: 20px;
+}
+
+.source_output_text{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.inside_num_for{
+    margin-left: 50px;
+    display: grid;
+    row-gap: 10px;
+}
+
+.output_grid{
+    display: grid;
+    margin-left: 3%;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+
+@media(max-width: 1500px){
+
+
+    /*good*/
+    .lifting_title{
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 1100px){
+
+
+    .lifting_title{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 700px){
+
+    .source_output_text{
+        font-size: 20px;
+    }
+
+    .lifting_title{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .run_pysrc_grid{
+        font-size: 15px;
+    }
+
+    .lifting_page{
+        font-size: 15px;
+    }
+}

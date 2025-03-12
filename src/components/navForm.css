@@ -1,0 +1,61 @@
+
+
+.nav-bar-form{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr;
+
+    place-items: center;
+    align-items: center;
+
+    font-family: "Lucida Console", "Consolas", monospace;
+    font-size: 20px;
+
+    position: fixed;
+    /*top: -100%;*/
+    top: 0px;
+
+    padding: 25px 0px 25px 0px;
+
+    height: 80%;
+
+    row-gap: 20px;
+
+    opacity: 100%;
+    pointer-events: none;
+    border: solid;
+    border-color: greenyellow;
+
+    z-index: 5;
+
+    /*transition: top 1s ease-in;  Smooth transition on 'right' property */
+}
+/*
+.nav-bar-form.show{
+    top: 0;
+}
+*/
+
+.link{
+    text-decoration: none;
+    color: greenyellow;
+    transition: color 0.2s;
+    pointer-events: all;
+}
+
+.link:hover{
+    color: white;
+}
+
+#grip-lines{
+    background: transparent;
+    border-width: 0px;
+}
+
+
+
+
+

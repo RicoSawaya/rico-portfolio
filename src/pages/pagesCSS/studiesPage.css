@@ -1,0 +1,72 @@
+.studies_page{
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
+
+    background-color: black;
+    font-family: "Lucida Console", "Consolas", monospace;
+    font-size: 20px;
+    color: greenyellow
+}
+
+.studies_title{
+    place-self: end;
+    font-size: 60px;
+    margin: 11.5% 0px 11.5% 0px;
+    padding-right: 8%;
+}
+
+.run_pysrc_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 3%;
+    row-gap: 25px;
+}
+
+.current_studies_src{
+    margin-bottom: 40px;
+}
+
+
+.work, .school{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.c3_link{
+    color:greenyellow
+}
+
+.cfa{
+    margin-bottom: 100px;
+}
+
+
+@media(max-width: 1500px){
+
+
+    /*good*/
+    .studies_title{
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 1100px){
+
+
+    .studies_title{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 700px){
+    .studies_title{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .run_pysrc_grid{
+        font-size: 15px;
+    }
+
+    
+}

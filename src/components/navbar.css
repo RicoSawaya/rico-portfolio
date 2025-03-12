@@ -1,0 +1,83 @@
+
+
+.nav-bar{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 1fr;
+    place-items: left;
+    align-items: center;
+    font-family: "Lucida Console", "Consolas", monospace;
+    font-size: 20px;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.left-nav{
+    padding-left: 50px;
+}
+
+.right-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.link{
+    text-decoration: none;
+    transition: color 0.2s;
+    pointer-events: all;
+    color: greenyellow;
+
+}
+
+.link:hover{
+    color: white;
+}
+
+.grip-lines{
+    position: absolute;
+    pointer-events: all;
+    right: 50px;
+    opacity: 0%;
+
+    border-width: 0px;
+    background: transparent;
+
+}
+
+
+@media((min-width: 0px) and (max-width:1000px)){
+    .right-nav{
+        opacity: 0%;
+    }
+    .right-nav .link{
+        pointer-events: none;
+    }
+
+    .grip-lines{
+        opacity:100%;
+        pointer-events: all;
+    }
+
+}
+
+@media(min-width: 1001px){
+    .right-nav{
+        opacity: 100%;
+    }
+    .right-nav .link{
+        pointer-events: all;
+    }
+
+    .grip-lines{
+        opacity:0%;
+        pointer-events: none;
+    }
+}
+
+

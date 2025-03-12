@@ -1,0 +1,185 @@
+.projects_page{
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
+
+    background-color: black;
+    font-family: "Lucida Console", "Consolas", monospace;
+    font-size: 20px;
+    color: greenyellow
+}
+
+.projects_title{
+    place-self: end;
+    font-size: 60px;
+    margin: 11.5% 0px 11.5% 0px;
+    padding-right: 8%;
+}
+
+.projects_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    margin-left: 3%;
+}
+
+.project{
+    margin-top: 50px;
+}
+
+.oNc{
+    font-size: 30px;
+}
+
+.description_pic_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3% 0px 3% 3%;
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    padding-right: 4%;
+
+}
+
+.photo_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.before_grid, .after_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.before_grid{
+    padding-left: 3%;
+}
+
+.BA{
+    font-weight: bold;
+}
+
+.before_src, .after_src{
+    width: 100%;
+}
+
+.before_img{
+    width: 70%;
+    padding-left: 50px;
+}
+
+.after_img{
+    padding-left: 50px;
+    width: 60%;
+}
+
+
+.example_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+}
+
+.photo_ode_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.e1_img{
+    width: 80%;
+}
+
+.arduino_img{
+    width: 60%;
+}
+
+.arduino_src{
+    width: 100%;
+    rotate: 270deg;
+}
+
+
+@media(max-width: 1500px){
+    .description_pic_grid{
+        grid-template-columns: 1fr;
+    }
+    .photo_grid, .photo_ode_grid{
+        margin-top: 5%;
+    }
+
+    .before_img{
+        width: 60%;
+    }
+    .after_img{
+        width: 50%;
+    }
+
+    .arduino_img{
+        width: 40%;
+    }
+
+    .e1_img{
+        width: 60%;
+    }
+
+    .projects_title{
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 1100px){
+    .photo_grid, .photo_ode_grid{
+        grid-template-columns: 1fr;
+    }
+
+    .photo_grid, .photo_ode_grid{
+        margin-top: 10%;
+    }
+
+    
+    .before_img{
+        width: 50%;
+    }
+    .after_img{
+        width: 40%;
+    }
+
+    .e1_img{
+        width: 50%;
+    }
+
+    .arduino_img{
+        width: 40%;
+    }
+
+    .after_grid{
+        padding-top: 5%;
+    }
+    .projects_title{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 700px){
+
+    .oNc{
+        font-size: 20px;
+    }
+
+    .projects_title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .projects_page{
+        font-size: 15px;
+    }
+
+    
+}

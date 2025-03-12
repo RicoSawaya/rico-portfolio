@@ -1,0 +1,159 @@
+.home-page{
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
+
+    background-color: black;
+    font-family: "Lucida Console", "Consolas", monospace;
+
+}
+
+.cmd-grid{
+    
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    row-gap: 25px;
+    color: greenyellow;
+    margin-top: 100px;
+    padding-left: 3%;
+
+    font-size: 20px;
+
+}
+
+.fake-license-desc{
+    margin-bottom: 15px
+}
+
+
+.run-py{
+    margin-top: 100px;
+}
+
+
+.pic-text-grid{
+    display: grid;
+
+    grid-template-columns: 30fr 100fr;
+
+    align-items: center;
+}
+
+.picture-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    margin-bottom: 30px;
+}
+
+.headshot-src{
+    width: 100%;
+}
+
+.headshot{
+    width: 90%;
+}
+
+.abt-init{
+    font-size: 25px;
+}
+
+.list-desc{
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 20px;
+    padding: 1.5% 3% 1.5% 3%;
+}
+
+
+
+#projects-plug{
+    text-decoration:underline;
+}
+
+
+.python-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 100px;
+
+    padding-left: 3%;
+    padding-bottom: 100px;
+
+    font-size: 20px;
+
+}
+
+.python-grid-func, .python-grid-dict{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    row-gap: 10px;
+    color: greenyellow;
+    margin-top: 100px;
+
+
+    padding-right: 100px;
+
+}
+
+.hobbies-array{
+    padding-left: 50px;
+}
+
+.for-loop-hobby{
+    padding-left: 50px;
+
+}
+
+.print-hobby{
+    padding-left: 100px;
+}
+
+.LinkedIn-dict, .github-dict, .youtube-dict{
+    padding-left: 50px;
+}
+
+.link-soc{
+    text-decoration: none;
+    transition: color 0.2s;
+    pointer-events: all;
+    color: greenyellow;
+    text-decoration: underline;
+
+}
+
+.link-soc:hover{
+    color: white;
+}
+
+@media(max-width: 1100px){
+
+    .python-grid{
+        grid-template-columns: 1fr;
+    }
+    .pic-text-grid{
+        grid-template-columns: 1fr;
+    }
+    .headshot{
+        width: 35%;
+    }
+}
+
+@media(max-width: 500px){
+
+    .abt-init{
+        font-size: 20px;
+    }
+    .cmd-grid,.python-grid{
+        font-size: 15px;
+    }
+    
+}
+
