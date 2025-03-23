@@ -12,10 +12,10 @@ function App() {
     <div className='main-body'>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/projects" element={<ProjectsPage/>}/>
-        <Route path="/studies" element={<StudiesPage/>}/>
-        <Route path="/lifting" element={<LiftingPage/>}/>
+        <Route path="/rico-portfolio/" element={<HomePage/>}/>
+        <Route path="/rico-portfolio/projects" element={<ProjectsPage/>}/>
+        <Route path="/rico-portfolio/studies" element={<StudiesPage/>}/>
+        <Route path="/rico-portfolio/lifting" element={<LiftingPage/>}/>
       </Routes>
     </div>
   )
