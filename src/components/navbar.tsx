@@ -18,13 +18,13 @@ function NavBar(){
                 {!showComponent && (
                 <div className="nav-bar">
                     <div className="left-nav">
-                        <Link to = "/rico-portfolio/" className="link">Rico Sawaya</Link>
+                        <Link to = "/" className="link">Rico Sawaya</Link>
                     </div>
                     <div className="right-nav">
-                        <Link to='/rico-portfolio/' className="link">Home</Link> 
-                        <Link to='/rico-portfolio/projects' className="link">Projects</Link> 
-                        <Link to='/rico-portfolio/studies' className="link">Studies</Link> 
-                        <Link to='/rico-portfolio/lifting' className="link">Lifting</Link>
+                        <Link to='/' className="link">Home</Link> 
+                        <Link to='/projects' className="link">Projects</Link> 
+                        <Link to='/studies' className="link">Studies</Link> 
+                        <Link to='/lifting' className="link">Lifting</Link>
                     </div>
                     <button className="grip-lines" onClick={toggleComponent}>
                         <img src={griplines}></img>
