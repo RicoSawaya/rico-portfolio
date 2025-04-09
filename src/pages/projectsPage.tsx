@@ -6,8 +6,6 @@ import arduino from './pictures/arduino1.jpg'
 import stock from './pictures/stock_output.png'
 import acct1 from './pictures/logging.png'
 import acct2 from './pictures/income.png'
-import acct3 from './pictures/balance.png'
-import acct4 from './pictures/cashflow.png'
 
 
 
