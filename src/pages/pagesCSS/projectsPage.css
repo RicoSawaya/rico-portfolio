@@ -16,6 +16,21 @@
     padding-right: 8%;
 }
 
+.anchor_title{
+    font-size: 60px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.projects_title,.anchor_title{
+    transition: color 0.2s;
+}
+
+.projects_title:hover , .anchor_title:hover{
+    color: white;
+}
+
+
 .projects_grid{
     display: grid;
     grid-template-columns: 1fr;

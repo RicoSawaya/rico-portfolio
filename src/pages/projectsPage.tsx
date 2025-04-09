@@ -15,7 +15,7 @@ function ProjectsPage(){
     return(
         <div className="projects_page">
 
-            <div className='projects_title'>Previous Projects</div>
+            <div className='projects_title'><a className = 'anchor_title' href='https://www.linkedin.com/in/rodrigue-sawaya-95887932a/details/projects/' target='_blank'>Previous Projects</a></div>
 
             <div className='projects_grid'>
 
