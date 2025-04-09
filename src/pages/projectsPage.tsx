@@ -4,6 +4,12 @@ import afterMap from './pictures/Screenshot 2024-12-28 222234.png'
 import ode1 from './pictures/ODE1.png'
 import arduino from './pictures/arduino1.jpg'
 import stock from './pictures/stock_output.png'
+import acct1 from './pictures/logging.png'
+import acct2 from './pictures/income.png'
+import acct3 from './pictures/balance.png'
+import acct4 from './pictures/cashflow.png'
+
+
 
 function ProjectsPage(){
     const braceO = "{";
@@ -103,6 +109,30 @@ function ProjectsPage(){
                     </div>
                     <div className='oNc'>{braceC}</div>
                 </div>
+
+
+                <div className='project' id='5'>
+                    <div className='oNc'>Accounting Software = {braceO}</div>
+                    <div className='description_pic_grid'>
+                        <div className='description'>
+                            <div>&#8226; Created a GUI with Python</div>
+                            <div>&#8226; Allows you to log entries into many different accounts</div>
+                            <div>&#8226; Can see all the logs you entered to verify a balance</div>
+                            <div>&#8226; Creates an Excel sheet of a balance, income, and cashflow statement</div>
+
+                        </div>
+                        <div className='photo_acct_grid'>
+                            <div className='photo_acct'>
+                                <img className='acct_src' src={acct1}></img>
+                            </div>
+                            <div className='photo_acct'>
+                                <img className='acct_src' src={acct2}></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='oNc'>{braceC}</div>
+                </div>
+
 
 
             </div>
